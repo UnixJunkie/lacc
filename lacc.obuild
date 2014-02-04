@@ -1,0 +1,11 @@
+Name:       lacc
+Version:    0.1
+Authors:    Francois Berenger
+License:    LGPL with linking exception
+Synopsis:   fat-free list accumulators
+obuild-ver: 1
+
+library common
+  oflags:  -w +27
+  modules: lacc
+  src-dir: lib
