@@ -1,5 +1,0 @@
-version = "0.1"
-description = "(fat-free) list accumulators"
-archive(byte) = "lacc.cma"
-archive(native) = "lacc.cmxa"
-exists_if = "lacc.cma"
