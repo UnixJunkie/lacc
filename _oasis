@@ -1,0 +1,19 @@
+OASISFormat: 0.3
+Name:        lacc
+Version:     0.1
+Synopsis:    fat-free list accumulators
+Authors:     Francois Berenger
+License:     LGPL
+Plugins:     META (0.3)
+BuildTools:  ocamlbuild
+
+Library lacc
+  Path:           lib
+  CompiledObject: best
+  Modules:        Lacc
+
+Executable test
+  Path:          lib_test
+  Install:       false
+  mainIs:        test.ml
+  buildDepends:  lacc
