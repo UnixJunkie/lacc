@@ -7,7 +7,7 @@ obuild-ver: 1
 
 library lacc
   oflags:  -w +27
-  modules: lacc
+  modules: Lacc
   src-dir: lib
 
 Executable test
