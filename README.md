@@ -1,6 +1,7 @@
 lacc
 ====
 
-fat-free list accumulators
+(fat-free) list accumulators
 
-the original idea came from the BatList module from batteries-included
+The original idea came from the BatList module from batteries-included.
+Cf. lib_test/test.ml for examples.
