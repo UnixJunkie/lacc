@@ -5,7 +5,13 @@ License:    LGPL with linking exception
 Synopsis:   fat-free list accumulators
 obuild-ver: 1
 
-library common
+library lacc
   oflags:  -w +27
   modules: lacc
   src-dir: lib
+
+Executable test
+  oflags:     -w +27
+  src-dir:    lib_test
+  build-deps: lacc
+  MainIs:     test.ml
