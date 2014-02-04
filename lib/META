@@ -1,0 +1,11 @@
+# OASIS_START
+# DO NOT EDIT (digest: fc767f270935e412981ec4c7661bd339)
+version = "0.1"
+description = "fat-free list accumulators"
+archive(byte) = "lacc.cma"
+archive(byte, plugin) = "lacc.cma"
+archive(native) = "lacc.cmxa"
+archive(native, plugin) = "lacc.cmxs"
+exists_if = "lacc.cma"
+# OASIS_STOP
+
