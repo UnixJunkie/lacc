@@ -3,12 +3,12 @@
 module Common = struct
 
   (* Thanks to Jacques Garrigue for suggesting the following structure *)
-  type 'a mut_list = {
+  type 'a t = {
     hd: 'a;
     mutable tl: 'a list
   }
 
-  external inj : 'a mut_list -> 'a list = "%identity"
+  external inj : 'a t -> 'a list = "%identity"
 
   let accum acc x =
     let cell = { hd = x; tl = [] } in
